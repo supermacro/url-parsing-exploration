@@ -20,6 +20,11 @@ body {
 }
 
 
+.part-1, .part-2 {
+  min-width: 60%;
+  max-width: 80%;
+}
+
 .part-1
   .browser-input {
   width: 100%;

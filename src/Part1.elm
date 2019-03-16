@@ -27,6 +27,11 @@ type Msg
 
 md : Html msg
 md = Markdown.toHtml [ class "content" ] """
+> This article assumes you've read the
+[Navigation](https://guide.elm-lang.org/webapps/navigation.html)
+and [URL Parsing](https://guide.elm-lang.org/webapps/url_parsing.html)
+docs from the Elm Guide.
+
 I've been working on a little side project recently
 ([link for the curious](https://github.com/parlez-vous/)) with a few goals in mind.
 One of those goals was (and continues to be) to become very fluent with the

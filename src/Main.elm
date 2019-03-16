@@ -3,7 +3,7 @@ import Html exposing (..)
 import Html.Attributes exposing (class)
 
 import Part1 as Pt1
-import Part2 as Pt2
+import Part2.Post as Pt2
 
 
 
@@ -32,7 +32,7 @@ type Msg
 view : Model -> Html Msg
 view model =
   div [ class "article-container" ]
-    [ h1 [ class "article-title" ] [ text "URLs in Elm" ] -- "Url |> Parse |> Route" ]
+    [ h1 [ class "article-title" ] [ text "Url |> Parse |> Route" ]
     , Html.map Pt1 <| Pt1.view model.pt1
     , Html.map Pt2 <| Pt2.view model.pt2
     ]
